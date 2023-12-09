@@ -1,0 +1,183 @@
+[
+    {
+        "heading": "Stanley",
+        "img": "images/frontpage-tiles/dining/1.jpeg",
+        "rating": "4.9",
+        "price": "84,999",
+        "category": "dining",
+        "features": {
+            "shape": "Rectangular",
+            "type": "Luxurious",
+            "seats": 8
+        }
+    },
+    {
+        "heading": "Zuari",
+        "img": "images/frontpage-tiles/dining/2.jpg",
+        "rating": "4",
+        "price": "46,599",
+        "category": "dining",
+        "features": {
+            "shape": "Rectangular",
+            "type": "Marble Top",
+            "seats": 10
+        }
+    },
+    {
+        "heading": "Style Spa",
+        "img": "images/frontpage-tiles/dining/3.jpg",
+        "rating": "3.6",
+        "price": "29,999",
+        "category": "dining",
+        "features": {
+            "shape": "Rectangular",
+            "type": "Glass Top",
+            "seats": 8
+        }
+    },
+    {
+        "heading": "Godrej Interio",
+        "img": "images/frontpage-tiles/dining/4.jpg",
+        "rating": "4.8",
+        "price": "76,499",
+        "category": "dining",
+        "features": {
+            "shape": "circular",
+            "type": "Marble | Luxurious",
+            "seats": 6
+        }
+    },
+    {
+        "heading": "Durian",
+        "img": "images/frontpage-tiles/dining/5.jpg",
+        "rating": "4.5",
+        "price": "50,299",
+        "category": "dining",
+        "features": {
+            "shape": "Irregular",
+            "type": "Woodden Top",
+            "seats": 5
+        }
+    },
+    {
+        "heading": "Evok",
+        "img": "images/frontpage-tiles/dining/6.jpg",
+        "rating": "4.1",
+        "price": "32,999",
+        "category": "dining",
+        "features": {
+            "shape": "circular",
+            "type": "Woodden Top",
+            "seats": 4
+        }
+    },
+    {
+        "heading": "Zuari",
+        "img": "images/frontpage-tiles/dining/7.jpg",
+        "rating": "3.6",
+        "price": "25,000",
+        "category": "dining",
+        "features": {
+            "shape": "Rectangular",
+            "type": "Woodden Top",
+            "seats": 6
+        }
+    },
+    {
+        "heading": "Stanley",
+        "img": "images/frontpage-tiles/dining/8.jpg",
+        "rating": "4.7",
+        "price": "40,699",
+        "category": "dining",
+        "features": {
+            "shape": "circular",
+            "type": "Marble | Luxurious",
+            "seats": 6
+        }
+    },
+    
+    {
+        "heading": "Featherlite",
+        "img": "images/frontpage-tiles/dining/10.jpg",
+        "rating": "3.4",
+        "price": "19,499",
+        "category": "dining",
+        "features": {
+            "shape": "Rectangular",
+            "type": "Glass Top",
+            "seats": 6
+        }
+    },
+    {
+        "heading": "Zuari",
+        "img": "images/frontpage-tiles/dining/11.jpg",
+        "rating": "4.8",
+        "price": "42,999",
+        "category": "dining",
+        "features": {
+            "shape": "circular",
+            "type": "Marble | Luxurious",
+            "seats": 6
+        }
+    },
+    {
+        "heading": "Home Town",
+        "img": "images/frontpage-tiles/dining/12.png",
+        "rating": "4.3",
+        "price": "21,799",
+        "category": "dining",
+        "features": {
+            "shape": "Rectangular",
+            "type": "Glass Top",
+            "seats": 6
+        }
+    },
+    {
+        "heading": "Nilkamal",
+        "img": "images/frontpage-tiles/dining/13.jpg",
+        "rating": "4.5",
+        "price": "14,999",
+        "category": "dining",
+        "features": {
+            "shape": "Rectangular",
+            "type": "Woodden",
+            "seats": 6
+        }
+    },
+    {
+        "heading": "Style Spa",
+        "img": "images/frontpage-tiles/dining/14.jpg",
+        "rating": "3.9",
+        "price": "12,599",
+        "category": "dining",
+        "features": {
+            "shape": "circular",
+            "type": "Woodden Top",
+            "seats": 2
+        }
+    },
+    {
+        "heading": "Stanley",
+        "img": "images/frontpage-tiles/dining/15.jpg",
+        "rating": "4.1",
+        "price": "8,000",
+        "category": "dining",
+        "features": {
+            "shape": "circular",
+            "type": "Woodden",
+            "seats": 4
+        }
+    },
+    {
+        "heading": "Evok",
+        "img": "images/frontpage-tiles/dining/16.jpg",
+        "rating": "3.8",
+        "price": "35,000",
+        "category": "dining",
+        "features": {
+            "shape": "oval",
+            "type": "Woodden",
+            "seats": 4
+        }
+    }
+]

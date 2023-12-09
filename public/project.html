@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borgin And Burkes</title>
+    
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bebas+Neue&family=Alfa+Slab+One&family=Roboto+Slab:wght@100;400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="productTile.css">
+
+  </head>
+
+
+  <body class="body">
+
+    <div id="loader">
+      <img src="./images/loading.gif" alt="Loading..." />
+    </div>
+    
+    <!-- header & nav bar -->
+
+    <div class="top-bar">
+      <header>
+        <img class="logo" src="./images/logo.png">
+        <h1> Borgin and Burkes</h1>
+      </header>
+      
+      <nav>
+
+        <div class="nav-links">
+          
+          <a href="/">
+            <i class="fa-solid fa-house" style="color: #000000;"></i>
+            Home
+          </a>
+
+          <a href="/">
+            <i class="fa-solid fa-boxes-stacked" style="color: #000000;"></i>
+            Products
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-circle-info" style="color: #000000;"></i>
+            About Us
+
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-envelope " style="color: #000000;"></i>
+            Contact
+          </a>
+        </div>
+        
+        <div class="user-section">
+  
+          <a href="/login" id="login">
+            <span> Log In </span>
+            <i class="fa-solid fa-right-to-bracket" style="color: #000000;"></i>
+          </a>
+          <a href="/register" id="signup">
+            <span>Sign Up</span> 
+            <i class="fa-solid fa-user" style="color: #000000;"></i>
+          </a>
+
+          <a id="cart"></a>
+          
+        </div>
+        <div class="side-bar" id="show-sidebar">
+          <a ><i class="fa-solid fa-bars" style="color: #000000;"></i></a>
+        </div>
+        
+      </nav>
+
+    </div>
+
+    <!-- side bar --> 
+
+    <div class="side-bar-content">
+      <ul>
+        <li id="hide-sidebar">
+          <a ><i class="fa-solid fa-bars" style="color: #ffffff;"></i></a>
+        </li>
+        <li>
+          <a id="side-cart"></a>
+        </li>
+
+        <li>
+          <a href="/register" id="side-signup">
+            <span>Sign Up</span> 
+            <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/login" id="side-login">
+            <span> Log In </span>
+            <i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+
+    <!-- slideshow section-->
+
+    <div class="slideshow">
+
+      <div class="search-box">
+          <input class="search-bar" type="text" name="search-bar" placeholder="What are you looking for?" >
+          <button class="submit-btn">
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+          </button>
+     
+      </div>
+
+      <div class="slideshow-text animate">
+          <h1 > Your Style, Your Space </h1>
+          <h2 > Handpicked Furniture Collections </h2>
+      </div>
+      
+    </div>
+
+    <!-- main content section -->
+
+    <div>
+      <section class="display-section">
+          <h2 class="section-title showcase animate"> Explore our collection </h2>
+          <hr style="width: 200px; height: 3px; background-color: #fff;">
+          <div class="container" id="display-container">
+            <!--  furniture thumbnails(cards) goes here -->
+          </div>
+
+      </section>
+
+      <section class="brands-section">
+
+        <h2 class="section-title brands animate"> Featured Highlights: </h2>
+        <hr style=" height: 3px; background-color: #571503;">
+        <h3 class="brands-sub">  From the Popular Brands </h3>
+        <div class="brand-tiles"></div>
+      
+        <div class="gradient-skew">
+          <div class="gradient beforediv"></div>
+          <div class="gradient afterdiv"></div>
+        </div>
+
+        <div class="container ">
+
+          <div class="brand-tile">
+             <img src="images/frontpage-tiles/company-logos/godrej.jpg"/>
+          </div>
+
+          <div class="brand-tile">
+             <img src="images/frontpage-tiles/company-logos/GreenSoul.jpg"/>
+          </div>
+
+          <div class="brand-tile">
+             <img src="images/frontpage-tiles/company-logos/nilkamal.jpg"/>
+          </div>
+
+          <div class="brand-tile">
+             <img src="images/frontpage-tiles/company-logos/hometown.jpeg"/>
+          </div>
+
+          <div class="brand-tile">
+             <img src="images/frontpage-tiles/company-logos/durian.png"/>
+          </div>
+
+          <div class="brand-tile">
+             <img src="images/frontpage-tiles/company-logos/tsc.jpg"/>
+          </div>
+        </div>
+          
+        <div class="brand-ad-container">
+
+          <div class="ad-slide ad-fade">
+            <img src="images/poster1.jpg" alt="Image 1">
+          </div>
+          <div class="ad-slide ad-fade">
+            <img src="images/poster2.jpg" alt="Image 2">
+          </div>
+          <div class="ad-slide ad-fade">
+            <img src="images/poster3.jpg" alt="Image 3">
+          </div>
+          
+          <a class="ad-prev" onclick="changeSlide(-1)">&#10094;</a>
+          <a class="ad-next" onclick="changeSlide(1)">&#10095;</a>
+
+        </div>
+      </section>
+
+      <section class="products-section">
+      </section>
+
+    </div>
+
+    <!--footer section-->
+
+    <footer>
+      <p>&copy; 2023 Borgin and Burkes Furniture Store. All rights reserved.</p>
+    </footer>
+
+    <script src="project.js"></script>
+    <script>
+      // Hide the loader when the page is fully loaded
+      window.addEventListener('load', function () {
+          var loader = document.getElementById('loader');
+          loader.style.display = 'none';
+          // Restore the body's overflow property to show content
+          document.body.style.overflow = 'visible';
+        });
+    </script>
+  
+  </body>
+</html>
+
+<!-- comment tag
+-->

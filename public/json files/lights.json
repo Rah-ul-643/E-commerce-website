@@ -1,0 +1,138 @@
+[
+    {
+        "heading":"Citra" ,
+        "img":"images/frontpage-tiles/lights/light1.jpg",
+        "rating":"4",
+        "price":"3,999",
+        "category": "light",
+        "features": {
+            "type":"Hanging light",
+            "frame":"metal",
+            "material": "glass",
+            "colour": "white"
+            
+        }
+        
+    },
+    {
+        "heading":"Carsten" ,
+        "img":"images/frontpage-tiles/lights/light2.jpg",
+        "rating":"4.5",
+        "price":"10,000",
+        "category": "light",
+        "features": {
+            "type":"Chandelier",
+            "frame":"metal",
+            "material": "crystal glass",
+            "colour": "white"
+            
+        }
+        
+    },
+    {
+        "heading":"Lycor" ,
+        "img":"images/frontpage-tiles/lights/light3.jpg",
+        "rating":"4.3",
+        "price":"1,999",
+        "category": "light",
+        "features": {
+            "type":"Hanging light",
+            "frame":"metal",
+            "material": "LED",
+            "colour": "golden"
+          
+        }
+        
+    },
+    {
+        "heading":"Floston" ,
+        "img":"images/frontpage-tiles/lights/light4.jpg",
+        "rating":"3.1",
+        "price":"599",
+        "category": "light",
+        "features": {
+            "type":"Hanging light",
+            "frame":"metal",
+            "material": "glass",
+            "colour": "golden"
+            
+        }
+        
+    },
+    {
+        "heading":"Lycor" ,
+        "img":"images/frontpage-tiles/lights/light5.jpg",
+        "rating":"4.4",
+        "price":"6,000",
+        "category": "light",
+        "features": {
+            "type":"Surface Mounted",
+            "frame":"Plastic",
+            "material": "LED",
+            "colour": "golden"
+            
+        }
+        
+    },
+    {
+        "heading":"Crysta" ,
+        "img":"images/frontpage-tiles/lights/light6.jpg",
+        "rating":"4.2",
+        "price":"499",
+        "category": "light",
+        "features": {
+            "type":"Hanging light",
+            "frame":"metal",
+            "material": "glass",
+            "colour": "golden"
+            
+        }
+        
+    },
+    {
+        "heading":"Citra" ,
+        "img":"images/frontpage-tiles/lights/light7.jpg",
+        "rating":"3.5",
+        "price":"3,999",
+        "category": "light",
+        "features": {
+            "type":"Surface Mounted",
+            "frame":"metal",
+            "material": "glass",
+            "colour": "white"
+            
+        }
+        
+    },
+    {
+        "heading":"Lycor" ,
+        "img":"images/frontpage-tiles/lights/light8.jpg",
+        "rating":"4.1",
+        "price":"5,000",
+        "category": "light",
+        "features": {
+            "type":"Chandelier",
+            "frame":"metal",
+            "material": "glass",
+            "colour": "golden"
+            
+        }
+        
+    },
+    {
+        "heading":"Loom" ,
+        "img":"images/frontpage-tiles/lights/light9.jpg",
+        "rating":"4.8",
+        "price":"15,999",
+        "category": "light",
+        "features": {
+            "type":"Chandelier",
+            "frame":"metal",
+            "material": "glass",
+            "colour": "white"
+            
+        }
+        
+    }
+
+]

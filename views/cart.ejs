@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>View Cart</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap&family=Alfa+Slab+One&family=Abril+Fatface&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/cart.css">
+    <link rel="stylesheet" href="/navbar.css">
+    <link rel="stylesheet" href="/productTile.css">
+
+</head>
+
+<body>
+    <div class="top-bar">
+        <header>
+            <h1>Borgin and Burkes</h1>
+        </header>
+
+        <nav>
+
+            <div class="nav-links">
+
+                <a href="/">
+                    <i class="fa-solid fa-house" style="color: #000000;"></i>
+                    Home
+                </a>
+
+                <a href="/">
+                    <i class="fa-solid fa-boxes-stacked" style="color: #000000;"></i>
+                    Products
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-circle-info" style="color: #000000;"></i>
+                    About Us
+
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-envelope " style="color: #000000;"></i>
+                    Contact
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="hero">
+
+        <ul class="my-cart">
+            <h1 class="centre-align cart-header">My cart</h1>
+            <%if (cartProducts.length===0) { %>
+                <h2>Cart is Empty!</h2>
+            
+            <% } else { %> 
+                <% for (let item of cartProducts) { %>
+                    <li class="list-item container">
+                        <div class="flexbox">
+                            <img class="display-image flex-items" src="/<%= item.img %>">
+                            <div class="flex-items flex-column">
+                                <div class="cart-product-details">
+
+                                    <h2 class="tile-heading">
+                                        <%= item.heading %>
+                                    </h2>
+                                    
+                                    <% let desc=``; if (item.features) { const features=item.features; for (let key in
+                                        features) { desc +=`${key}:${features[key]} | `; } } %>
+                                        <p class="description capitalize">
+                                            <%= item.category %> |
+                                            <%= desc %>
+                                        </p>
+
+                                        <div>
+                                            <span>
+                                                <% for (let i=0; i < Math.floor(item.rating); i++) { %>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <% } %>
+                                            </span>
+                                            <span><strong>
+                                                    <%= item.rating %>
+                                                </strong></span>
+                                        </div>
+
+                                </div>
+                                <div>
+                                    <h2>Price: &#x20b9; <%= item.price %>
+                                    </h2>
+                                </div>
+                                <div class="quantity">
+                                    <h2 style="margin:0 20px;">
+                                        Quantity:
+                                        <%= item.quantity %>
+                                    </h2>
+                                    <div style="margin:0 20px;">
+                                        <div><button onclick="increaseCount('<%=item.quantity %>','<%=item._id%>')"><i class="fa-solid fa-plus" style="color: #000000; cursor: pointer;"></i></button></div>
+                                        <div><button onclick="decreaseCount('<%=item.quantity %>','<%=item._id%>')"><i class="fa-solid fa-minus" style="color: #000000; cursor: pointer;"></i></button>
+                                        </div>
+
+                                    </div>
+
+                                    <div style="margin:0 20px;">
+                                        <button class="delete-buy-btn" onclick="deleteItem('<%=item._id%>')">
+                                            <i class="fa-solid fa-trash" style="color: #000000;"></i>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </li>
+                    <div class="ladder-design"></div>
+                <% } %>
+            <% } %>
+        </ul>
+        <div class="flex-items">
+            <div class="checkout-summary container">
+                <h1 class="centre-align checkout-head">Checkout</h1>
+                <h3 class="centre-align checkout-item">Total Items: <span><%= cartCount %></span></h3>
+                <h3 class="centre-align checkout-item">Total Price: <span> &#x20b9; <%= totalPrice %></span></h3>
+                <div class="centre-align">
+                    <button class="delete-buy-btn" id="buy-btn">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/cart.js" async defer></script>
+</body>
+
+</html>

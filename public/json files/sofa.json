@@ -1,0 +1,146 @@
+[
+    {
+        "heading": "Godrej Interio",
+        "img": "images/frontpage-tiles/sofa/s1.jpg",
+        "rating": 4,
+        "price": "52,000",
+        "category": "sofa",
+        "features": {
+            "type": "Modular L shape",
+            "seats": 4,
+            "color": "White"
+        }
+    },
+    {
+        "heading": "Sleepy Head",
+        "img": "images/frontpage-tiles/sofa/s2.jpg",
+        "rating": 3,
+        "price": "45,000",
+        "category": "sofa",
+        "features": {
+            "type": "L shape",
+            "seats": 5,
+            "color": "White"
+        }
+    },
+    {
+        "heading": "Durian",
+        "img": "images/frontpage-tiles/sofa/s3.jpg",
+        "rating": 4.2,
+        "price": "64,000",
+        "category": "sofa",
+        "features": {
+            "type": "Leather Sofa",
+            "seats": "3 + 3",
+            "color": "Brown"
+        }
+    },
+    {
+        "heading": "Home Town",
+        "img": "images/frontpage-tiles/sofa/s4.jpg",
+        "rating": 3.8,
+        "price": "40,000",
+        "category": "sofa",
+        "features": {
+            "type": "L shape",
+            "seats": "4",
+            "color": "Gray"
+        }
+    },
+    {
+        "heading": "Adorn India",
+        "img": "images/frontpage-tiles/sofa/s5.jpg",
+        "rating": 4.8,
+        "price": "30,000",
+        "category": "sofa",
+        "features": {
+            "type": "Sofa Set",
+            "seats": "2",
+            "color": "Beige"
+        }
+    },
+    {
+        "heading": "Furniture Valley",
+        "img": "images/frontpage-tiles/sofa/s6.jpg",
+        "rating": 4.9,
+        "price": "48,000",
+        "category": "sofa",
+        "features": {
+            "type": "Velvet Sofa set",
+            "seats": "3",
+            "color": "Emerald Green"
+        }
+    },
+    {
+        "heading": "Nilkamal",
+        "img": "images/frontpage-tiles/sofa/s7.jpg",
+        "rating": 3.5,
+        "price": "24,999",
+        "category": "sofa",
+        "features": {
+            "type": "Single Seater Sofa-Chair",
+            "seats": "1",
+            "color": "Champagne"
+        }
+    },
+    {
+        "heading": "Godrej Interio",
+        "img": "images/frontpage-tiles/sofa/s8.jpg",
+        "rating": 4.3,
+        "price": "55,000",
+        "category": "sofa",
+        "features": {
+            "type": "U-shaped Velvet Armchair",
+            "seats": "1",
+            "color": "Olive Green"
+        }
+    },
+    {
+        "heading": "Durian",
+        "img": "images/frontpage-tiles/sofa/s9.jpg",
+        "rating": 4.5,
+        "price": "20,000",
+        "category": "sofa",
+        "features": {
+            "type": "Sofa Set",
+            "seats": "3",
+            "color": "Gray"
+        }
+    },
+    {
+        "heading": "Godrej Interio",
+        "img": "images/frontpage-tiles/sofa/s10.jpg",
+        "rating": 4,
+        "price": "55,000",
+        "category": "sofa",
+        "features": {
+            "type": "U-shaped Modular Sofa",
+            "seats": 9,
+            "color": "White and Brown"
+        }
+    },
+    {
+        "heading": "Sleepy Head",
+        "img": "images/frontpage-tiles/sofa/s11.jpg",
+        "rating": 4.8,
+        "price": "32,999",
+        "category": "sofa",
+        "features": {
+            "type": "U-shaped ",
+            "seats": 4,
+            "color": "Lavander"
+        }
+    },
+    {
+        "heading": "Adorn India",
+        "img": "images/frontpage-tiles/sofa/s12.jpg",
+        "rating": 3.6,
+        "price": "28,999",
+        "category": "sofa",
+        "features": {
+            "type": "Chesterfield Sofa",
+            "seats": "2+1+1",
+            "color": "Off White"
+        }
+    }
+]

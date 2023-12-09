@@ -1,0 +1,146 @@
+[
+    {
+        "heading":"Homidec" ,
+        "img":"images/frontpage-tiles/bookshelves/book1.jpg",
+        "rating":"4",
+        "price":"4,999",
+        "category": "bookshelf",
+        "features": {
+            "tiers": 10,
+            "material": "metal"
+        }
+        
+    },
+    {
+        "heading":"Yitahome" ,
+        "img":"images/frontpage-tiles/bookshelves/book2.jpg",
+        "rating":"3.5",
+        "price":"3,500",
+        "category": "bookshelf",
+        "features": {
+            "tiers": "10+",
+            "material": "wooden"
+        }
+
+    },
+    {
+        "heading":"Nilkamal" ,
+        "img":"images/frontpage-tiles/bookshelves/book3.jpg",
+        "rating":"3.8",
+        "price":"3,000",
+        "category": "bookshelf",
+        "features": {
+            "tiers": "6",
+            "material": "wooden"
+        }
+
+    },
+    {
+        "heading":"BluWud" ,
+        "img":"images/frontpage-tiles/bookshelves/book4.jpg",
+        "rating":"3.7",
+        "price":"8,000",
+        "category": "bookshelf",
+        "features": {
+            "tiers": "3",
+            "material": "wooden"
+        }
+
+    },
+    {
+        "heading":"DeckUp" ,
+        "img":"images/frontpage-tiles/bookshelves/book5.jpg",
+        "rating":"4.2",
+        "price":"4,000",
+        "category": "bookshelf",
+        "features": {
+            "tiers": "4",
+            "material": "wooden"
+        }
+
+    },
+    {
+        "heading":"Yitahome" ,
+        "img":"images/frontpage-tiles/bookshelves/book6.jpg",
+        "rating":"4",
+        "price":"15,000",
+        "category": "bookshelf",
+        "features": {
+            "tiers": "10+",
+            "material": "wooden"
+        }
+
+    },
+    {
+        "heading":"Snazzy" ,
+        "img":"images/frontpage-tiles/bookshelves/book7.jpg",
+        "rating":"3.6",
+        "price":"7,000",
+        "category": "bookshelf",
+        "features": {
+            "tiers": "5",
+            "material": "wooden"
+        }
+
+    },
+    {
+        "heading":"Alaterre" ,
+        "img":"images/frontpage-tiles/bookshelves/book8.jpg",
+        "rating":"2.9",
+        "price":"12,500",
+        "category": "bookshelf",
+        "features": {
+            "tiers": "10+",
+            "material": "wooden"
+        }
+
+    },
+    {
+        "heading":"BluWud" ,
+        "img":"images/frontpage-tiles/bookshelves/book9.jpg",
+        "rating":"3.9",
+        "price":"9,999",
+        "category": "bookshelf",
+        "features": {
+            "tiers": "10+",
+            "material": "wooden"
+        }
+
+    },
+    {
+        "heading":"Nilkamal" ,
+        "img":"images/frontpage-tiles/bookshelves/book10.jpg",
+        "rating":"4.6",
+        "price":"20,000",
+        "category": "bookshelf",
+        "features": {
+            "tiers": "5",
+            "material": "wooden"
+        }
+
+    },
+    {
+        "heading":"Homidec" ,
+        "img":"images/frontpage-tiles/bookshelves/book11.jpg",
+        "rating":"3.3",
+        "price":"6,000",
+        "category": "bookshelf",
+        "features": {
+            "tiers": "10+",
+            "material": "wooden"
+        }
+
+    },
+    {
+        "heading":"Yitahome" ,
+        "img":"images/frontpage-tiles/bookshelves/book12.jpg",
+        "rating":"3.5",
+        "price":"8,000",
+        "category": "bookshelf",
+        "features": {
+            "tiers": "5",
+            "material": "wooden"
+        }
+
+    }
+]

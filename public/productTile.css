@@ -1,0 +1,68 @@
+/* main products listing style */
+
+.category-heading{
+    font-family: 'Alfa Slab One', cursive; 
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 50px;
+    letter-spacing: 0.3rem;
+  }
+  @media screen and (width<500px) {
+    .category-heading{
+      margin: auto;
+    }
+  }
+  .flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .product-tile{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    background-color: #ebe8e1;
+  }
+
+  
+  .product-tile img{
+    height: 60%;
+    width: 100%;
+  }
+
+  .tile-content{
+    padding: 10px;
+  }
+
+  .description{
+    font-family: cursive;
+    font-size: 1.1rem;
+   
+  }
+
+  .capitalize{
+    text-transform: capitalize;
+  }
+  
+  .product-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .add-to-cart-btn{
+    background-color: orange;
+    font-size: 1.2rem ;
+    font-family: 'Alfa Slab One', cursive; 
+    border: none;
+  }
+  .add-to-cart-btn:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+  }
+
+  .checked{
+    color: #f5c724;
+  }

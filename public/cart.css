@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+  }
+
+  h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/plain3.jpg');
+  }
+
+  .hero{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px;
+    flex-wrap: wrap-reverse;
+  }
+
+  .my-cart{ 
+    padding: 20px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cart-header{
+    font-family: 'Alfa Slab One'; 
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: 200;
+  }
+  .list-item{
+    list-style: none;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .list-item:hover{
+     transform: scale(1.02);
+
+  }
+
+  .container{
+    background-color: rgb(21, 21, 20);
+    background-image: linear-gradient(to right,rgb(17, 16, 16),rgb(48, 46, 46),rgb(91, 79, 79));
+    border-radius: 60px;
+    color: white;
+  }
+
+  .display-image{
+    border: 5px solid rgb(255, 252, 252);
+    height: 200px;
+    width: 300px;
+  }
+
+  .flexbox{
+    display: flex;
+    justify-content:flex-start;
+    margin: 0 50px;
+  }
+  
+  .flex-items {
+    margin: 20px;
+    width: 100%;
+  }
+
+  .quantity{
+    display: flex;
+    align-items: center;
+
+  }
+
+  .centre-align{
+    text-align: center;
+  }
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .delete-buy-btn{
+    background-color: orange;
+    font-family: 'Alfa Slab One', cursive; 
+    font-size: 1.7rem ;
+    padding: 5px;
+    border: none;
+  }
+  .delete-buy-btn:hover{
+    transform: scale(1.08); 
+    cursor: pointer;
+  }
+
+  .checkout-summary{
+    padding: 50px;
+    margin: 0 50px;
+  }
+
+  .checkout-head{
+    font-family: 'Roboto';
+    font-size: 4rem;
+  }
+
+  .checkout-item{
+    font-size: 1.5rem;
+  }
+
+  .ladder-design{
+    width: 50%;
+    height: 100px;
+    margin:auto;
+    border-left: 10px dotted rgb(70, 0, 0);
+    border-right: 10px dotted rgb(70, 0, 0);
+  }
+  .ladder-design:last-child{
+    border: none;
+  }

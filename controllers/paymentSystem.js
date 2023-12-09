@@ -49,8 +49,8 @@ const makePayment = async (req, res) => {
             payment_method_types: ['card'],
             mode: 'payment',
             line_items: await getDetails(items),
-            success_url: 'http://localhost:8000/success.html',
-            cancel_url: 'http://localhost:8000/cancel.html',
+            success_url: 'https://borgin-and-burkes-furnitures.onrender.com/success.html',
+            cancel_url: 'https://borgin-and-burkes-furnitures.onrender.com/cancel.html',
     
         })
     

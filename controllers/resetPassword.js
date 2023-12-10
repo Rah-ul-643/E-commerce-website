@@ -10,7 +10,7 @@ const nodemailer= require('nodemailer');
 const gmail= process.env.gmail;
 const password= process.env.password;
 
-const sendMail= (otp,username)=>{
+const sendMail= (otp,username,gmail,password)=>{
     const transporter = nodemailer.createTransport({
         service:"gmail",
         secure: true,
@@ -62,7 +62,7 @@ const userVerifier= async (req,res)=>{
             const newsecurityObject= {'code':code,'username':username,'otp':otp};
             await otpController.createObject(newsecurityObject);
 
-            sendMail(otp,username);
+            sendMail(otp,username,gmail,password);
             console.log("OTP: "+otp);
 
             const encodedCode = encodeURIComponent(code);
